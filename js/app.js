@@ -35,6 +35,7 @@ function tag(texto, feito) {
 
 const todos = trilha.flatMap((fase) => fase.modulos.flatMap(topicosDe));
 const geral = percentual(todos);
+document.documentElement.style.setProperty("--geral", String(geral));
 const marca = document.createElement("span");
 marca.className = "resumo-pct";
 marca.textContent = geral + "%";
@@ -84,6 +85,7 @@ trilha.forEach((fase, indice) => {
     const botao = document.createElement("button");
     botao.type = "button";
     botao.className = "no";
+    botao.style.setProperty("--p", String(pct));
 
     const nome = document.createElement("span");
     nome.className = "no-nome";
@@ -112,6 +114,7 @@ trilha.forEach((fase, indice) => {
 
 function abrir(fase, modulo, origem) {
   ultimoFoco = origem;
+  modal.style.setProperty("--p", String(percentual(topicosDe(modulo))));
   modalFase.textContent = fase.fase;
   modalTitulo.textContent = modulo.nome;
   modalPct.textContent = percentual(topicosDe(modulo)) + "%";

@@ -3,7 +3,7 @@ function g(nome, pares) {
     nome: nome,
     topicos: pares.map(function (par) {
       return { nome: par[0], feito: par[1] };
-    })
+    }),
   };
 }
 
@@ -17,55 +17,55 @@ const trilha = [
         nome: "HTML",
         grupos: [
           g("Dominar", [
-            ["HTML semântico", false],
-            ["head e body", false],
-            ["Headings", false],
-            ["Parágrafos", false],
-            ["Links", false],
-            ["Imagens", false],
-            ["Listas", false],
-            ["Tabelas", false],
-            ["Formulários", false],
-            ["Inputs", false],
-            ["Buttons", false],
-            ["Labels", false],
-            ["Select", false],
-            ["Textarea", false],
+            ["HTML semântico", true],
+            ["head e body", true],
+            ["Headings", true],
+            ["Parágrafos", true],
+            ["Links", true],
+            ["Imagens", true],
+            ["Listas", true],
+            ["Tabelas", true],
+            ["Formulários", true],
+            ["Inputs", true],
+            ["Buttons", true],
+            ["Labels", true],
+            ["Select", true],
+            ["Textarea", true],
             ["Fieldset e legend", false],
-            ["Article e section", false],
-            ["Nav, main, header e footer", false],
-            ["Aside", false],
+            ["Article e section", true],
+            ["Nav, main, header e footer", true],
+            ["Aside", true],
             ["Figure e figcaption", false],
-            ["Metadata", false],
-            ["SEO básico", false],
+            ["Metadata", true],
+            ["SEO básico", true],
             ["Open Graph", false],
-            ["Favicon", false]
-          ])
-        ]
+            ["Favicon", true],
+          ]),
+        ],
       },
       {
         nome: "CSS",
         grupos: [
           g("Fundamentos", [
-            ["Cascade", false],
-            ["Specificity", false],
-            ["Inheritance", false],
-            ["Box model", false],
-            ["Display", false],
-            ["Position", false],
+            ["Cascade", true],
+            ["Specificity", true],
+            ["Inheritance", true],
+            ["Box model", true],
+            ["Display", true],
+            ["Position", true],
             ["Overflow", false],
             ["Stacking context", false],
-            ["z-index", false],
+            ["z-index", true],
             ["Pseudo-classes", false],
-            ["Pseudo-elements", false]
+            ["Pseudo-elements", true],
           ]),
           g("Layout", [
-            ["Flexbox", false],
-            ["Grid", false],
-            ["Responsive", false],
-            ["Mobile-first", false],
-            ["Media queries", false],
-            ["Container queries", false]
+            ["Flexbox", true],
+            ["Grid", true],
+            ["Responsive", true],
+            ["Mobile-first", true],
+            ["Media queries", true],
+            ["Container queries", false],
           ]),
           g("Moderno", [
             ["CSS variables", false],
@@ -80,31 +80,31 @@ const trilha = [
             ["Transitions", false],
             ["Animations", false],
             ["Transforms", false],
-            ["View Transitions", false]
+            ["View Transitions", false],
           ]),
           g("Depois do CSS puro", [
             ["Arquitetura CSS", false],
             ["Tailwind", false],
             ["CSS Modules", false],
-            ["Design tokens", false]
-          ])
-        ]
+            ["Design tokens", false],
+          ]),
+        ],
       },
       {
         nome: "JavaScript",
         grupos: [
           g("Básico", [
-            ["Variables", false],
-            ["Types", false],
-            ["Operators", false],
-            ["Conditionals", false],
+            ["Variables", true],
+            ["Types", true],
+            ["Operators", true],
+            ["Conditionals", true],
             ["Loops", false],
-            ["Functions", false],
-            ["Arrays", false],
+            ["Functions", true],
+            ["Arrays", true],
             ["Objects", false],
             ["Destructuring", false],
             ["Spread e rest", false],
-            ["Template literals", false]
+            ["Template literals", false],
           ]),
           g("Intermediário", [
             ["Scope", false],
@@ -117,7 +117,7 @@ const trilha = [
             ["Modules", false],
             ["Immutability", false],
             ["Higher-order functions", false],
-            ["Callbacks", false]
+            ["Callbacks", false],
           ]),
           g("Avançado", [
             ["Event loop", false],
@@ -131,9 +131,9 @@ const trilha = [
             ["AbortController", false],
             ["Streams", false],
             ["Memory", false],
-            ["Browser APIs", false]
-          ])
-        ]
+            ["Browser APIs", false],
+          ]),
+        ],
       },
       {
         nome: "Web Platform",
@@ -156,11 +156,11 @@ const trilha = [
             ["Service Workers", false],
             ["Clipboard", false],
             ["Drag and drop", false],
-            ["File API", false]
-          ])
-        ]
-      }
-    ]
+            ["File API", false],
+          ]),
+        ],
+      },
+    ],
   },
   {
     fase: "Fase D0",
@@ -176,9 +176,9 @@ const trilha = [
             ["Matiz", false],
             ["Saturação", false],
             ["Luminosidade", false],
-            ["Contraste", false]
-          ])
-        ]
+            ["Contraste", false],
+          ]),
+        ],
       },
       {
         nome: "Tipografia",
@@ -187,9 +187,9 @@ const trilha = [
             ["Famílias tipográficas", false],
             ["Serif, sans e monospace", false],
             ["Hierarquia tipográfica", false],
-            ["Escala tipográfica", false]
-          ])
-        ]
+            ["Escala tipográfica", false],
+          ]),
+        ],
       },
       {
         nome: "Composição",
@@ -205,11 +205,11 @@ const trilha = [
             ["Grid", false],
             ["Whitespace", false],
             ["Affordance", false],
-            ["Consistência visual", false]
-          ])
-        ]
-      }
-    ]
+            ["Consistência visual", false],
+          ]),
+        ],
+      },
+    ],
   },
   {
     fase: "Fase D1",
@@ -227,9 +227,9 @@ const trilha = [
             ["Typography system", false],
             ["Color system", false],
             ["Iconografia", false],
-            ["Imagens", false]
-          ])
-        ]
+            ["Imagens", false],
+          ]),
+        ],
       },
       {
         nome: "Componentes",
@@ -250,9 +250,9 @@ const trilha = [
             ["Tabs", false],
             ["Tables", false],
             ["Navigation", false],
-            ["Pagination", false]
-          ])
-        ]
+            ["Pagination", false],
+          ]),
+        ],
       },
       {
         nome: "Estados",
@@ -267,11 +267,11 @@ const trilha = [
             ["Active", false],
             ["Disabled", false],
             ["Pressed", false],
-            ["Responsive states", false]
-          ])
-        ]
-      }
-    ]
+            ["Responsive states", false],
+          ]),
+        ],
+      },
+    ],
   },
   {
     fase: "Fase D2",
@@ -290,9 +290,9 @@ const trilha = [
             ["Hierarchy", false],
             ["Usability", false],
             ["Cognitive load", false],
-            ["Affordances", false]
-          ])
-        ]
+            ["Affordances", false],
+          ]),
+        ],
       },
       {
         nome: "Interação",
@@ -310,19 +310,15 @@ const trilha = [
             ["Empty states", false],
             ["Confirmation", false],
             ["Destructive actions", false],
-            ["Progressive disclosure", false]
-          ])
-        ]
+            ["Progressive disclosure", false],
+          ]),
+        ],
       },
       {
         nome: "Heurísticas",
-        grupos: [
-          g("Aprender", [
-            ["Heurísticas de usabilidade", false]
-          ])
-        ]
-      }
-    ]
+        grupos: [g("Aprender", [["Heurísticas de usabilidade", false]])],
+      },
+    ],
   },
   {
     fase: "Fase D3",
@@ -341,9 +337,9 @@ const trilha = [
             ["Variants", false],
             ["Component properties", false],
             ["Styles", false],
-            ["Variables", false]
-          ])
-        ]
+            ["Variables", false],
+          ]),
+        ],
       },
       {
         nome: "Layout",
@@ -353,9 +349,9 @@ const trilha = [
             ["Colors", false],
             ["Spacing", false],
             ["Grids", false],
-            ["Responsive layouts", false]
-          ])
-        ]
+            ["Responsive layouts", false],
+          ]),
+        ],
       },
       {
         nome: "Protótipo",
@@ -366,11 +362,11 @@ const trilha = [
             ["Overlays", false],
             ["Design libraries", false],
             ["Annotations", false],
-            ["Handoff", false]
-          ])
-        ]
-      }
-    ]
+            ["Handoff", false],
+          ]),
+        ],
+      },
+    ],
   },
   {
     fase: "Fase D4",
@@ -387,9 +383,9 @@ const trilha = [
             ["Responsive typography", false],
             ["Responsive spacing", false],
             ["Flexible grids", false],
-            ["Container queries", false]
-          ])
-        ]
+            ["Container queries", false],
+          ]),
+        ],
       },
       {
         nome: "Adaptação",
@@ -401,11 +397,11 @@ const trilha = [
             ["Responsive images", false],
             ["Touch targets", false],
             ["Mobile interaction", false],
-            ["Desktop interaction", false]
-          ])
-        ]
-      }
-    ]
+            ["Desktop interaction", false],
+          ]),
+        ],
+      },
+    ],
   },
   {
     fase: "Fase D5",
@@ -419,9 +415,9 @@ const trilha = [
             ["Contraste", false],
             ["Tamanho de texto", false],
             ["Color blindness", false],
-            ["Reduced motion", false]
-          ])
-        ]
+            ["Reduced motion", false],
+          ]),
+        ],
       },
       {
         nome: "Interação",
@@ -432,9 +428,9 @@ const trilha = [
             ["Touch targets", false],
             ["Screen readers", false],
             ["Labels", false],
-            ["Form errors", false]
-          ])
-        ]
+            ["Form errors", false],
+          ]),
+        ],
       },
       {
         nome: "Estrutura",
@@ -444,11 +440,11 @@ const trilha = [
             ["Accessible navigation", false],
             ["Accessible dialogs", false],
             ["WCAG", false],
-            ["Inclusive design", false]
-          ])
-        ]
-      }
-    ]
+            ["Inclusive design", false],
+          ]),
+        ],
+      },
+    ],
   },
   {
     fase: "Fase 1",
@@ -466,16 +462,16 @@ const trilha = [
             ["rebase", false],
             ["stash", false],
             ["reset e revert", false],
-            ["Conflitos", false]
+            ["Conflitos", false],
           ]),
           g("Fluxo", [
             ["Pull requests", false],
             ["Code review", false],
             ["Conventional Commits", false],
             ["Trunk-based", false],
-            ["GitHub", false]
-          ])
-        ]
+            ["GitHub", false],
+          ]),
+        ],
       },
       {
         nome: "Terminal",
@@ -489,9 +485,9 @@ const trilha = [
             ["grep", false],
             ["curl", false],
             ["ssh", false],
-            ["Linux", false]
-          ])
-        ]
+            ["Linux", false],
+          ]),
+        ],
       },
       {
         nome: "NPM",
@@ -504,11 +500,11 @@ const trilha = [
             ["pnpm", false],
             ["workspaces", false],
             ["Vite", false],
-            ["Next.js build", false]
-          ])
-        ]
-      }
-    ]
+            ["Next.js build", false],
+          ]),
+        ],
+      },
+    ],
   },
   {
     fase: "Projetos 2026",
@@ -529,9 +525,9 @@ const trilha = [
             ["Fundamentos visuais", false],
             ["UI básica", false],
             ["UX básica", false],
-            ["Figma básico", false]
-          ])
-        ]
+            ["Figma básico", false],
+          ]),
+        ],
       },
       {
         nome: "Dashboard Vanilla",
@@ -543,9 +539,9 @@ const trilha = [
             ["Loading e error", false],
             ["Paginação", false],
             ["Filtros", false],
-            ["localStorage", false]
-          ])
-        ]
+            ["localStorage", false],
+          ]),
+        ],
       },
       {
         nome: "E-commerce Vanilla",
@@ -556,11 +552,11 @@ const trilha = [
             ["Filtros", false],
             ["Busca", false],
             ["Checkout fictício", false],
-            ["Responsivo", false]
-          ])
-        ]
-      }
-    ]
+            ["Responsivo", false],
+          ]),
+        ],
+      },
+    ],
   },
   {
     fase: "Fase 2",
@@ -579,9 +575,9 @@ const trilha = [
             ["Unions e intersections", false],
             ["Enums", false],
             ["Functions", false],
-            ["Optional properties", false]
-          ])
-        ]
+            ["Optional properties", false],
+          ]),
+        ],
       },
       {
         nome: "Intermediário",
@@ -593,9 +589,9 @@ const trilha = [
             ["keyof e typeof", false],
             ["Indexed access", false],
             ["Utility types", false],
-            ["Discriminated unions", false]
-          ])
-        ]
+            ["Discriminated unions", false],
+          ]),
+        ],
       },
       {
         nome: "Avançado",
@@ -607,11 +603,11 @@ const trilha = [
             ["infer", false],
             ["Generic constraints", false],
             ["Declaration merging", false],
-            ["Module augmentation", false]
-          ])
-        ]
-      }
-    ]
+            ["Module augmentation", false],
+          ]),
+        ],
+      },
+    ],
   },
   {
     fase: "Fase 3",
@@ -630,9 +626,9 @@ const trilha = [
             ["Conditional rendering", false],
             ["Lists e keys", false],
             ["Forms", false],
-            ["Composition", false]
-          ])
-        ]
+            ["Composition", false],
+          ]),
+        ],
       },
       {
         nome: "Hooks",
@@ -645,9 +641,9 @@ const trilha = [
             ["useMemo", false],
             ["useCallback", false],
             ["useRef", false],
-            ["Custom hooks", false]
-          ])
-        ]
+            ["Custom hooks", false],
+          ]),
+        ],
       },
       {
         nome: "Avançado",
@@ -661,20 +657,20 @@ const trilha = [
             ["Server Components", false],
             ["Suspense", false],
             ["Error boundaries", false],
-            ["Performance", false]
-          ])
-        ]
+            ["Performance", false],
+          ]),
+        ],
       },
       {
         nome: "Forms",
         grupos: [
           g("Formulários", [
             ["React Hook Form", false],
-            ["Zod", false]
-          ])
-        ]
-      }
-    ]
+            ["Zod", false],
+          ]),
+        ],
+      },
+    ],
   },
   {
     fase: "Fase 5",
@@ -689,28 +685,24 @@ const trilha = [
             ["Jest", false],
             ["Mocking", false],
             ["Spies", false],
-            ["Fixtures", false]
-          ])
-        ]
+            ["Fixtures", false],
+          ]),
+        ],
       },
       {
         nome: "Componentes",
-        grupos: [
-          g("Aprender", [
-            ["React Testing Library", false]
-          ])
-        ]
+        grupos: [g("Aprender", [["React Testing Library", false]])],
       },
       {
         nome: "E2E",
         grupos: [
           g("Aprender", [
             ["Playwright", false],
-            ["Fluxo da aplicação", false]
-          ])
-        ]
-      }
-    ]
+            ["Fluxo da aplicação", false],
+          ]),
+        ],
+      },
+    ],
   },
   {
     fase: "Projeto 2027",
@@ -726,9 +718,9 @@ const trilha = [
             ["Wireframe", false],
             ["UI", false],
             ["Protótipo", false],
-            ["Design system", false]
-          ])
-        ]
+            ["Design system", false],
+          ]),
+        ],
       },
       {
         nome: "Entrega",
@@ -743,11 +735,11 @@ const trilha = [
             ["Accessibility", false],
             ["Figma avançado", false],
             ["UX heuristics", false],
-            ["UI states", false]
-          ])
-        ]
-      }
-    ]
+            ["UI states", false],
+          ]),
+        ],
+      },
+    ],
   },
   {
     fase: "Fase 4",
@@ -764,9 +756,9 @@ const trilha = [
             ["Dynamic routes", false],
             ["Route groups", false],
             ["loading, error e not-found", false],
-            ["Metadata", false]
-          ])
-        ]
+            ["Metadata", false],
+          ]),
+        ],
       },
       {
         nome: "Dados",
@@ -778,9 +770,9 @@ const trilha = [
             ["Data fetching", false],
             ["Caching", false],
             ["Revalidation", false],
-            ["Streaming", false]
-          ])
-        ]
+            ["Streaming", false],
+          ]),
+        ],
       },
       {
         nome: "Produto",
@@ -790,11 +782,11 @@ const trilha = [
             ["Authorization", false],
             ["API e BFF", false],
             ["Imagens e fonts", false],
-            ["Deploy", false]
-          ])
-        ]
-      }
-    ]
+            ["Deploy", false],
+          ]),
+        ],
+      },
+    ],
   },
   {
     fase: "Fase 6",
@@ -812,9 +804,9 @@ const trilha = [
             ["Shadows", false],
             ["Elevation", false],
             ["Motion", false],
-            ["Icons", false]
-          ])
-        ]
+            ["Icons", false],
+          ]),
+        ],
       },
       {
         nome: "Tokens",
@@ -822,9 +814,9 @@ const trilha = [
           g("Camadas", [
             ["Primitive tokens", false],
             ["Semantic tokens", false],
-            ["Component tokens", false]
-          ])
-        ]
+            ["Component tokens", false],
+          ]),
+        ],
       },
       {
         nome: "Componentes",
@@ -836,9 +828,9 @@ const trilha = [
             ["Checkbox", false],
             ["Modal", false],
             ["Tooltip", false],
-            ["Table", false]
-          ])
-        ]
+            ["Table", false],
+          ]),
+        ],
       },
       {
         nome: "Patterns",
@@ -850,9 +842,9 @@ const trilha = [
             ["Dashboards", false],
             ["Tables", false],
             ["Filters", false],
-            ["Search", false]
-          ])
-        ]
+            ["Search", false],
+          ]),
+        ],
       },
       {
         nome: "Implementação",
@@ -870,11 +862,11 @@ const trilha = [
             ["TypeScript", false],
             ["Storybook", false],
             ["CSS", false],
-            ["Tests", false]
-          ])
-        ]
-      }
-    ]
+            ["Tests", false],
+          ]),
+        ],
+      },
+    ],
   },
   {
     fase: "Fase D7",
@@ -897,9 +889,9 @@ const trilha = [
             ["Hover interactions", false],
             ["Modal transitions", false],
             ["Scroll animations", false],
-            ["Reduced motion", false]
-          ])
-        ]
+            ["Reduced motion", false],
+          ]),
+        ],
       },
       {
         nome: "Na web",
@@ -908,11 +900,11 @@ const trilha = [
             ["CSS", false],
             ["Web Animations API", false],
             ["Framer Motion", false],
-            ["View Transitions", false]
-          ])
-        ]
-      }
-    ]
+            ["View Transitions", false],
+          ]),
+        ],
+      },
+    ],
   },
   {
     fase: "Fase 14",
@@ -927,9 +919,9 @@ const trilha = [
             ["Lifted state", false],
             ["Context", false],
             ["Server state", false],
-            ["Global client state", false]
-          ])
-        ]
+            ["Global client state", false],
+          ]),
+        ],
       },
       {
         nome: "Ferramentas",
@@ -937,11 +929,11 @@ const trilha = [
           g("Uma principal", [
             ["TanStack Query", false],
             ["Zustand", false],
-            ["Redux Toolkit", false]
-          ])
-        ]
-      }
-    ]
+            ["Redux Toolkit", false],
+          ]),
+        ],
+      },
+    ],
   },
   {
     fase: "Projeto 2027",
@@ -959,11 +951,11 @@ const trilha = [
             ["Filtros e busca", false],
             ["Notifications", false],
             ["Settings", false],
-            ["CI/CD", false]
-          ])
-        ]
-      }
-    ]
+            ["CI/CD", false],
+          ]),
+        ],
+      },
+    ],
   },
   {
     fase: "Fase 7",
@@ -983,11 +975,11 @@ const trilha = [
             ["Contraste", false],
             ["Formulários", false],
             ["Dialogs", false],
-            ["Navegação", false]
-          ])
-        ]
-      }
-    ]
+            ["Navegação", false],
+          ]),
+        ],
+      },
+    ],
   },
   {
     fase: "Fase 8",
@@ -1004,9 +996,9 @@ const trilha = [
             ["Bundle size", false],
             ["Code splitting", false],
             ["Lazy loading", false],
-            ["Tree shaking", false]
-          ])
-        ]
+            ["Tree shaking", false],
+          ]),
+        ],
       },
       {
         nome: "Métricas",
@@ -1017,9 +1009,9 @@ const trilha = [
             ["CLS", false],
             ["Lighthouse", false],
             ["DevTools", false],
-            ["Web Vitals", false]
-          ])
-        ]
+            ["Web Vitals", false],
+          ]),
+        ],
       },
       {
         nome: "Entrega",
@@ -1029,11 +1021,11 @@ const trilha = [
             ["CDN", false],
             ["Imagens e fonts", false],
             ["Compressão", false],
-            ["HTTP/2 e HTTP/3", false]
-          ])
-        ]
-      }
-    ]
+            ["HTTP/2 e HTTP/3", false],
+          ]),
+        ],
+      },
+    ],
   },
   {
     fase: "Fase 9",
@@ -1054,11 +1046,11 @@ const trilha = [
             ["OAuth e OIDC", false],
             ["Session", false],
             ["Onde guardar token", false],
-            ["Dependências", false]
-          ])
-        ]
-      }
-    ]
+            ["Dependências", false],
+          ]),
+        ],
+      },
+    ],
   },
   {
     fase: "Fase 10",
@@ -1075,9 +1067,9 @@ const trilha = [
             ["Paginação", false],
             ["Filtro e ordenação", false],
             ["Caching", false],
-            ["Erros", false]
-          ])
-        ]
+            ["Erros", false],
+          ]),
+        ],
       },
       {
         nome: "Além do REST",
@@ -1087,11 +1079,11 @@ const trilha = [
             ["WebSockets", false],
             ["SSE", false],
             ["tRPC", false],
-            ["BFF", false]
-          ])
-        ]
-      }
-    ]
+            ["BFF", false],
+          ]),
+        ],
+      },
+    ],
   },
   {
     fase: "Fase 11",
@@ -1106,9 +1098,9 @@ const trilha = [
             ["Event loop", false],
             ["HTTP", false],
             ["Streams", false],
-            ["Process e environment", false]
-          ])
-        ]
+            ["Process e environment", false],
+          ]),
+        ],
       },
       {
         nome: "PostgreSQL",
@@ -1120,20 +1112,20 @@ const trilha = [
             ["Indexes", false],
             ["Constraints", false],
             ["Transactions", false],
-            ["Relações", false]
-          ])
-        ]
+            ["Relações", false],
+          ]),
+        ],
       },
       {
         nome: "Redis",
         grupos: [
           g("Depois", [
             ["Caching", false],
-            ["Queues", false]
-          ])
-        ]
-      }
-    ]
+            ["Queues", false],
+          ]),
+        ],
+      },
+    ],
   },
   {
     fase: "Fase 12",
@@ -1151,9 +1143,9 @@ const trilha = [
             ["Deploy", false],
             ["CDN, DNS e HTTPS", false],
             ["Logs", false],
-            ["Monitoring", false]
-          ])
-        ]
+            ["Monitoring", false],
+          ]),
+        ],
       },
       {
         nome: "Cloud",
@@ -1167,11 +1159,11 @@ const trilha = [
             ["IAM", false],
             ["Sentry", false],
             ["OpenTelemetry", false],
-            ["Kubernetes", false]
-          ])
-        ]
-      }
-    ]
+            ["Kubernetes", false],
+          ]),
+        ],
+      },
+    ],
   },
   {
     fase: "Fase 13",
@@ -1187,9 +1179,9 @@ const trilha = [
             ["SOLID", false],
             ["Design patterns", false],
             ["Composition", false],
-            ["Limites de domínio", false]
-          ])
-        ]
+            ["Limites de domínio", false],
+          ]),
+        ],
       },
       {
         nome: "Formas",
@@ -1199,11 +1191,11 @@ const trilha = [
             ["Layered", false],
             ["Modular", false],
             ["Monorepo", false],
-            ["Micro-frontends", false]
-          ])
-        ]
-      }
-    ]
+            ["Micro-frontends", false],
+          ]),
+        ],
+      },
+    ],
   },
   {
     fase: "Projeto 2028",
@@ -1223,9 +1215,9 @@ const trilha = [
             ["Playwright", false],
             ["Vitest", false],
             ["Storybook", false],
-            ["Monitoring", false]
-          ])
-        ]
+            ["Monitoring", false],
+          ]),
+        ],
       },
       {
         nome: "Produto",
@@ -1238,7 +1230,7 @@ const trilha = [
             ["Busca e paginação", false],
             ["Optimistic updates", false],
             ["Caching", false],
-            ["Error handling", false]
+            ["Error handling", false],
           ]),
           g("Ciclo de produto", [
             ["Problema real", false],
@@ -1249,11 +1241,11 @@ const trilha = [
             ["Protótipo", false],
             ["Analytics", false],
             ["Feedback", false],
-            ["Iteração", false]
-          ])
-        ]
-      }
-    ]
+            ["Iteração", false],
+          ]),
+        ],
+      },
+    ],
   },
   {
     fase: "Fase 15",
@@ -1270,11 +1262,11 @@ const trilha = [
             ["Pacotes compartilhados", false],
             ["Design system package", false],
             ["Configs compartilhadas", false],
-            ["CI em monorepo", false]
-          ])
-        ]
-      }
-    ]
+            ["CI em monorepo", false],
+          ]),
+        ],
+      },
+    ],
   },
   {
     fase: "Fase 16",
@@ -1293,11 +1285,11 @@ const trilha = [
             ["Refactor assistido", false],
             ["MCP", false],
             ["LLM workflows", false],
-            ["Testes assistidos", false]
-          ])
-        ]
-      }
-    ]
+            ["Testes assistidos", false],
+          ]),
+        ],
+      },
+    ],
   },
   {
     fase: "Fase 17",
@@ -1311,9 +1303,9 @@ const trilha = [
             ["Leitura técnica", false],
             ["Listening", false],
             ["Vocabulário profissional", false],
-            ["Documentação", false]
-          ])
-        ]
+            ["Documentação", false],
+          ]),
+        ],
       },
       {
         nome: "2027",
@@ -1322,9 +1314,9 @@ const trilha = [
             ["Reuniões", false],
             ["Entrevistas", false],
             ["Conversação", false],
-            ["Explicação técnica", false]
-          ])
-        ]
+            ["Explicação técnica", false],
+          ]),
+        ],
       },
       {
         nome: "2028+",
@@ -1333,11 +1325,11 @@ const trilha = [
             ["Arquitetura em inglês", false],
             ["Daily", false],
             ["Code review", false],
-            ["Technical discussion", false]
-          ])
-        ]
-      }
-    ]
+            ["Technical discussion", false],
+          ]),
+        ],
+      },
+    ],
   },
   {
     fase: "Fase 18",
@@ -1352,9 +1344,9 @@ const trilha = [
             ["LinkedIn em inglês", false],
             ["CV em inglês", false],
             ["Portfólio em inglês", false],
-            ["README em inglês", false]
-          ])
-        ]
+            ["README em inglês", false],
+          ]),
+        ],
       },
       {
         nome: "Entrevista",
@@ -1365,11 +1357,11 @@ const trilha = [
             ["Behavioral", false],
             ["Comunicação escrita", false],
             ["Comunicação", false],
-            ["Mentoring", false]
-          ])
-        ]
-      }
-    ]
+            ["Mentoring", false],
+          ]),
+        ],
+      },
+    ],
   },
   {
     fase: "Engenharia",
@@ -1382,9 +1374,9 @@ const trilha = [
           g("Base", [
             ["Clean Code", false],
             ["Code Review", false],
-            ["Documentação", false]
-          ])
-        ]
+            ["Documentação", false],
+          ]),
+        ],
       },
       {
         nome: "Operação",
@@ -1393,9 +1385,9 @@ const trilha = [
             ["Observability", false],
             ["Logging", false],
             ["Monitoring", false],
-            ["CI/CD", false]
-          ])
-        ]
+            ["CI/CD", false],
+          ]),
+        ],
       },
       {
         nome: "Processo",
@@ -1404,11 +1396,11 @@ const trilha = [
             ["Agile", false],
             ["Scrum", false],
             ["Kanban", false],
-            ["Product thinking", false]
-          ])
-        ]
-      }
-    ]
+            ["Product thinking", false],
+          ]),
+        ],
+      },
+    ],
   },
   {
     fase: "Fase D8",
@@ -1428,9 +1420,9 @@ const trilha = [
             ["Problem discovery", false],
             ["Hypothesis", false],
             ["Qualitative research", false],
-            ["Quantitative data", false]
-          ])
-        ]
+            ["Quantitative data", false],
+          ]),
+        ],
       },
       {
         nome: "Métricas",
@@ -1440,11 +1432,11 @@ const trilha = [
             ["Analytics", false],
             ["Funnels", false],
             ["Conversion", false],
-            ["Retention", false]
-          ])
-        ]
-      }
-    ]
+            ["Retention", false],
+          ]),
+        ],
+      },
+    ],
   },
   {
     fase: "Fase D9",
@@ -1461,9 +1453,9 @@ const trilha = [
             ["Business needs", false],
             ["Trade-offs", false],
             ["MVP", false],
-            ["Prioritization", false]
-          ])
-        ]
+            ["Prioritization", false],
+          ]),
+        ],
       },
       {
         nome: "Métricas",
@@ -1475,11 +1467,11 @@ const trilha = [
             ["Activation", false],
             ["Engagement", false],
             ["Funnel", false],
-            ["Experimentation", false]
-          ])
-        ]
-      }
-    ]
+            ["Experimentation", false],
+          ]),
+        ],
+      },
+    ],
   },
   {
     fase: "Design Engineering",
@@ -1498,9 +1490,9 @@ const trilha = [
             ["Visual regression", false],
             ["Design-to-code", false],
             ["Governança", false],
-            ["Documentação", false]
-          ])
-        ]
+            ["Documentação", false],
+          ]),
+        ],
       },
       {
         nome: "Trade-offs",
@@ -1510,9 +1502,9 @@ const trilha = [
             ["Design e engenharia", false],
             ["Produto e engenharia", false],
             ["Decisões de produto", false],
-            ["Mentoring de UI", false]
-          ])
-        ]
+            ["Mentoring de UI", false],
+          ]),
+        ],
       },
       {
         nome: "Conversas",
@@ -1521,11 +1513,11 @@ const trilha = [
             ["Com designer", false],
             ["Com product manager", false],
             ["Com backend", false],
-            ["Com front-end", false]
-          ])
-        ]
-      }
-    ]
+            ["Com front-end", false],
+          ]),
+        ],
+      },
+    ],
   },
   {
     fase: "Case studies",
@@ -1547,11 +1539,11 @@ const trilha = [
             ["Testes", false],
             ["Performance", false],
             ["Resultado", false],
-            ["O que mudaria", false]
-          ])
-        ]
-      }
-    ]
+            ["O que mudaria", false],
+          ]),
+        ],
+      },
+    ],
   },
   {
     fase: "Especialização",
@@ -1563,18 +1555,18 @@ const trilha = [
         grupos: [
           g("Caminho", [
             ["Architecture", false],
-            ["Staff", false]
-          ])
-        ]
+            ["Staff", false],
+          ]),
+        ],
       },
       {
         nome: "Performance",
         grupos: [
           g("Caminho", [
             ["Performance", false],
-            ["Web Platform", false]
-          ])
-        ]
+            ["Web Platform", false],
+          ]),
+        ],
       },
       {
         nome: "Design",
@@ -1582,11 +1574,11 @@ const trilha = [
           g("Caminho", [
             ["UI Engineering", false],
             ["Design Systems", false],
-            ["Design Engineering", false]
-          ])
-        ]
-      }
-    ]
+            ["Design Engineering", false],
+          ]),
+        ],
+      },
+    ],
   },
   {
     fase: "Camadas",
@@ -1598,37 +1590,33 @@ const trilha = [
         grupos: [
           g("Entender", [
             ["Por que está sendo construído", false],
-            ["Impacto no usuário", false]
-          ])
-        ]
+            ["Impacto no usuário", false],
+          ]),
+        ],
       },
       {
         nome: "Negócio",
         grupos: [
           g("Entender", [
             ["Impacto", false],
-            ["Prioridade", false]
-          ])
-        ]
+            ["Prioridade", false],
+          ]),
+        ],
       },
       {
         nome: "Comunicação",
-        grupos: [
-          g("Entender", [
-            ["Explicar decisões", false]
-          ])
-        ]
+        grupos: [g("Entender", [["Explicar decisões", false]])],
       },
       {
         nome: "Liderança",
         grupos: [
           g("Entender", [
             ["Fazer o time produzir melhor", false],
-            ["Mentoring", false]
-          ])
-        ]
-      }
-    ]
+            ["Mentoring", false],
+          ]),
+        ],
+      },
+    ],
   },
   {
     fase: "Ecossistema",
@@ -1647,11 +1635,11 @@ const trilha = [
             ["Remix", false],
             ["Astro", false],
             ["React Native", false],
-            ["Flutter", false]
-          ])
-        ]
-      }
-    ]
+            ["Flutter", false],
+          ]),
+        ],
+      },
+    ],
   },
   {
     fase: "Laboratório",
@@ -1665,9 +1653,9 @@ const trilha = [
             ["Promise do zero", false],
             ["Debounce", false],
             ["Throttle", false],
-            ["Cache", false]
-          ])
-        ]
+            ["Cache", false],
+          ]),
+        ],
       },
       {
         nome: "Interface",
@@ -1678,11 +1666,11 @@ const trilha = [
             ["Lista virtualizada", false],
             ["Modal acessível", false],
             ["Infinite scroll", false],
-            ["Drag and drop", false]
-          ])
-        ]
-      }
-    ]
+            ["Drag and drop", false],
+          ]),
+        ],
+      },
+    ],
   },
   {
     fase: "Portfólio",
@@ -1691,35 +1679,19 @@ const trilha = [
     modulos: [
       {
         nome: "Portfolio",
-        grupos: [
-          g("HTML, CSS e JS", [
-            ["Site profissional", false]
-          ])
-        ]
+        grupos: [g("HTML, CSS e JS", [["Site profissional", false]])],
       },
       {
         nome: "Dashboard",
-        grupos: [
-          g("React e TypeScript", [
-            ["Dashboard", false]
-          ])
-        ]
+        grupos: [g("React e TypeScript", [["Dashboard", false]])],
       },
       {
         nome: "SaaS",
-        grupos: [
-          g("Next.js e PostgreSQL", [
-            ["SaaS", false]
-          ])
-        ]
+        grupos: [g("Next.js e PostgreSQL", [["SaaS", false]])],
       },
       {
         nome: "Design System",
-        grupos: [
-          g("React, TypeScript e Storybook", [
-            ["Biblioteca", false]
-          ])
-        ]
+        grupos: [g("React, TypeScript e Storybook", [["Biblioteca", false]])],
       },
       {
         nome: "Nível sênior",
@@ -1732,11 +1704,11 @@ const trilha = [
             ["Accessibility", false],
             ["CI/CD", false],
             ["Monitoring", false],
-            ["Documentation", false]
-          ])
-        ]
-      }
-    ]
+            ["Documentation", false],
+          ]),
+        ],
+      },
+    ],
   },
   {
     fase: "Checkpoint",
@@ -1750,10 +1722,10 @@ const trilha = [
             ["Evidência por tecnologia", false],
             ["Produto e negócio", false],
             ["Liderança", false],
-            ["Especialização", false]
-          ])
-        ]
-      }
-    ]
-  }
+            ["Especialização", false],
+          ]),
+        ],
+      },
+    ],
+  },
 ];
