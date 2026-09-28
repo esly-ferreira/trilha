@@ -68,7 +68,7 @@ const trilha = [
             ["Container queries", false],
           ]),
           g("Moderno", [
-            ["CSS variables", false],
+            ["CSS variables", true],
             ["Nesting", false],
             ["clamp, min, max e calc", false],
             ["Logical properties", false],
@@ -171,12 +171,12 @@ const trilha = [
         nome: "Cor",
         grupos: [
           g("Aprender", [
-            ["Teoria das cores", false],
-            ["Círculo cromático", false],
-            ["Matiz", false],
-            ["Saturação", false],
-            ["Luminosidade", false],
-            ["Contraste", false],
+            ["Teoria das cores", true],
+            ["Círculo cromático", true],
+            ["Matiz", true],
+            ["Saturação", true],
+            ["Luminosidade", true],
+            ["Contraste", true],
           ]),
         ],
       },
@@ -184,8 +184,8 @@ const trilha = [
         nome: "Tipografia",
         grupos: [
           g("Aprender", [
-            ["Famílias tipográficas", false],
-            ["Serif, sans e monospace", false],
+            ["Famílias tipográficas", true],
+            ["Serif, sans e monospace", true],
             ["Hierarquia tipográfica", false],
             ["Escala tipográfica", false],
           ]),
